@@ -1,5 +1,6 @@
 # IFE.item
 ##刷任务
   <br/>
-  百度前端技术学院
-[task001预览链接地址]https://github.com/yym-yumeng123/IFE.item/blob/master/task001.html
+  百度前端技术学院<br/>
+[task001预览链接地址]https://yym-yumeng123.github.io/IFE.item/task001.html
+[task004预览链接地址]https://yym-yumeng123.github.io/IFE.item/task004.html
