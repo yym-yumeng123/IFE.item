@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	  *{
+		  margin:0;
+	    padding: 0;
+	  }
+		#cub{
+			width: 400px;
+			height: 200px;
+			background-color: #ccc;
+			margin:0 auto;
+			position: relative;
+		}
+		.cir1{
+			width: 50px;
+			height: 50px;
+			border-radius:0 0 100% 0;;
+			background-color: #fc0;
+			position: absolute;
+		}
+		.cir2{
+			width: 50px;
+			height: 50px;
+			border-radius:100% 0 0 0;
+			background-color: #fc0;
+			position:absolute;
+			bottom: 0;
+			right: 0;
+		}
+	</style>
+</head>
+<body>
+	<div id="cub">
+		<div class="cir1"></div>
+		<div class="cir2"></div>
+	</div>
+</body>
+</html>
