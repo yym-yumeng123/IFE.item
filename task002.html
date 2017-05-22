@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>零基础html编码</title>
+	<style>
+    /*表单样式尝试了很久，做的不满意，借鉴了别人的*/
+    /*高度设只没有自适应，自己设置的，改进的地方有很多*/
+    /*命名过多，不会管理，以后命名更加规范*/
+	*{
+    margin:0; padding:0;
+    }
+	#for{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+	background:#dedede;
+	}
+
+	/*title的样式表*/
+	.title{
+	width:1000px;
+	height:50px;
+	background:#333333;
+	}
+	.title .logo{
+	width:200px;
+	color:red;	
+	line-height:50px;
+	float:left;
+	}
+	.title .lia{
+	float:right;
+	line-height:50px;
+	}
+	.title .lia .tle{
+	float:left;
+	margin-left:20px;
+	}
+	.title .lia .tle a{
+	text-decoration:none;
+	color:white;
+	}
+	.title .lia .tle a:hover{
+	color:gray;
+	}
+	
+	/*artical1的样式表*/
+	
+	.artical1{
+	width:800px;
+	height:700px;
+	background:white;
+	margin:20px auto;
+	}
+	.artical1 .logo1{
+	padding-top:30px ;
+	padding-left:20px;
+	}
+	.artical1 .small{
+	padding-left:20px;
+	margin-top:15px;
+	}
+	.artical1 .time1{
+	padding-left:20px;
+	margin-top:15px;
+	}
+	.artical1 .du{
+	padding-left:20px;
+	text-indent:2em;	
+	}
+	.artical1 img{
+	padding-left:20px;
+	}
+	.artical1 .du1{
+	padding-left:20px;	
+	}
+
+	/*artical2的样式表*/
+	
+	.artical2{
+	width:800px;
+	height:700px;
+	background:white;
+	margin:20px auto;
+	}
+	.artical2 .logo2{
+	padding-top:30px ;
+	padding-left:20px;
+	}
+	.artical2 .small1{
+	padding-left:20px;
+	margin-top:15px;
+	}
+	.artical2 .time2{
+	padding-left:20px;
+	margin-top:15px;
+	}
+	.artical2 .du2{
+	padding-left:20px;
+	text-indent:2em;	
+	}
+	.artical2 .du3{
+	padding-left:20px;	
+	}
+	.artical2 img{
+	padding-left:20px;
+	}
+	.artical2 ul{
+	padding-left:20px;
+	list-style:none;
+	text-indent:2em;	
+	}
+
+	/*图片的样式表*/
+	
+	.img{
+	width:800px;
+	height:2300px;
+	background:white;
+	margin:20px auto;
+	}
+	.img .h{
+	padding-top:30px ;
+	padding-left:20px;
+	}
+	.img .im{
+	width:200px;
+	height:200px;
+	border:1px solid black;
+	margin:20px 50px;
+	}
+	.img .im .p1{
+	text-align:center;
+	margin-top:20px;
+	}
+	.img .im img{
+	width:100px;
+	height:100px;
+	margin-left:25%;
+	margin-top:20px;
+	}
+
+	/*表格样式表*/
+	.t{
+	width:800px;
+	height:420px;
+	background:white;
+	margin:20px auto;
+	}
+	.t .logo3{
+	padding-top:30px ;
+	padding-left:20px;
+	}
+	.t .small2{
+	padding-left:20px;
+	margin-top:15px;
+	}
+	.t .time3{
+	padding-left:20px;
+	margin-top:15px;
+	}
+	.t ol{
+	padding-left:100px;
+	margin-top:15px;
+	font-weight:bold;
+	}
+	.t .bo{
+	padding-left:20px;
+	margin-top:15px;
+	font-weight:bold;
+	}
+	.t table{
+	width:760px;
+	height:180px;
+	margin:0 auto;
+	}
+	.t table .tr1{
+	background:#333333;	
+	}
+	.t table .tr2{
+	background:#cccccc;	
+	}
+	tr,th,td{
+	border:1px solid gray
+	}
+	tr,th{
+	text-align:left;
+	}
+
+	/*表单样式表*/
+    aside{
+    width:800px;
+    height:450px;
+    background:white;
+    margin:20px auto;
+    }
+	aside h4{
+    height:40px;
+    line-height:40px;
+    padding-left:10px;
+    border-left:3px solid #ccc;
+    }
+    aside form div{
+        font-size: 14px;
+        margin:15px 0;
+    }
+
+    aside form div .tips{
+        float:left;          
+        text-align:right;
+        width:35%;
+        padding-right:15px;
+    }
+    aside form div p{
+        margin-left:35%;
+        padding-left:15px;
+        font-size:12px;
+        color: #aaa;
+    }
+    aside textarea{
+        width:50%;
+        height:100px;
+
+    }
+    aside .submitButton{
+        width:100%;
+        height:40px;
+        border-radius: 10px;
+        background: #128fdc;
+        color: white;
+        font-size: 19px;
+        border:none;
+    }
+    aside .submitButton:hover{
+        background: #0063dc;
+
+    }
+
+
+
+	/*底部*/
+	.foot{
+	width:1000px;
+	height:50px;
+	background:black;
+	color:white;
+	text-align:center;
+	line-height:50px;
+	}
+	</style>
+</head>
+<body>
+<div id="for">
+	<!--title标题-->
+
+	<div class="title">
+		<h1 class="logo">网站一级标题</h1>
+		<ul class="lia">
+			<li class="tle"><a href="#">导航链接一</a></li>
+			<li class="tle"><a href="#">导航链接二</a></li>
+			<li class="tle"><a href="#">导航链接三</a></li>
+			<li class="tle"><a href="#">导航链接四</a></li>
+		</ul>
+	</div>
+	
+	<!--artical文章1-->
+	<div class="artical1">
+		<h2 class="logo1">文章一级标题</h2>
+		<pre class="small">文章二级标题</pre>
+		<pre class="time1">文章作者 文章发表的时间</pre>
+		<p class="du">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+		<p class="du1">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="#">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+		<img src="images/1.jpg">
+		<p class="du">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+		<p class="du1">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="#">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+	</div>
+
+	<!--artical文章2-->
+	<div class="artical2">
+		<h2 class="logo2">另一篇文章一级标题</h2>
+		<pre class="small1">文章二级标题</pre>
+		<pre class="time2">文章作者 文章发表时间</pre>
+		<p class="du2">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+		<p class="du3">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了，这是一个很长很长的段落，这是一个很长很长的段落，<a href="#">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+		<img src="images/1.jpg">
+		<ul>
+			<li>列表项目一</li>
+			<li>列表项目二</li>
+			<li>列表项目三</li>
+		</ul>
+	</div>
+
+
+	<!--图片-->
+	<div class="img">
+		<h2 class="h">图片</h2>
+		<div class="im">
+			<p class="p1">好看的图片</p>
+			<img src="images/1.jpg">
+		</div>
+		<div class="im">
+			<p class="p1">好看的图片</p>
+			<img src="images/1.jpg">
+		</div><div class="im">
+			<p class="p1">好看的图片</p>
+			<img src="images/1.jpg">
+		</div><div class="im">
+			<p class="p1">好看的图片</p>
+			<img src="images/1.jpg">
+		</div><div class="im">
+			<p class="p1">好看的图片</p>
+			<img src="images/1.jpg">
+		</div><div class="im">
+			<p class="p1">好看的图片</p>
+			<img src="images/1.jpg">
+		</div><div class="im">
+			<p class="p1">好看的图片</p>
+			<img src="images/1.jpg">
+		</div><div class="im">
+			<p class="p1">好看的图片</p>
+			<img src="images/1.jpg">
+		</div><div class="im">
+			<p class="p1">好看的图片</p>
+			<img src="images/1.jpg">
+		</div><div class="im">
+			<p class="p1">好看的图片</p>
+			<img src="images/1.jpg">
+		</div>
+	</div>
+
+
+	<!--表格-->
+
+	<div class="t">
+		<h2 class="logo3">最后一篇文章一级标题</h2>
+		<pre class="small2">文章二级标题</pre>
+		<pre class="time3">文章作者 文章发表时间</pre>
+		<ol>
+			<li>排名1</li>
+			<li>排名2</li>
+			<li>排名3</li>
+		</ol>
+		<p class="bo">下面是一个表格，给表哥加了一个border=<q>1</q>好让你看出是一个表格，你们不用写html不用加</p>
+		<table>
+			<tr class="tr1">
+				<th>表头</th>
+				<th>表头</th>
+				<th>表头</th>
+			</tr>
+			<tr>
+				<th>表格内容单元格</th>
+				<td>表格内容单元格</td>
+				<td>操作</td>
+			</tr>
+			<tr>
+				<th>表格内容单元格</th>
+				<td>表格内容单元格</td>
+				<td>操作</td>
+			</tr>
+			<tr>
+				<th>表格内容单元格</th>
+				<td>表格内容单元格</td>
+				<td>操作</td>
+			</tr>
+			<tr>
+				<th>表格内容单元格</th>
+				<td>表格内容单元格</td>
+				<td>操作</td>
+			</tr>
+			<tr class="tr2">
+				<th>总计</th>
+				<td colspan='2'>1000</td>
+			</tr>
+		</table>
+	</div>
+
+
+
+
+		<!--form表单-->
+	 <aside>
+        <h4>这里是一个侧栏，这是侧栏的标题</h4>
+        <!--<h3>侧栏注册窗口标题</h3>-->
+        
+        <form action="save.php" method="post">
+            <div>
+                <label class="tips">请输入邮箱地址</label>
+
+                <input type="text" placeholder="邮箱" />
+                <p>邮箱地址请按要求格式输入</p>
+            </div>
+            
+            <div>
+                <label class="tips">请输入密码</label>
+                <input type="password" placeholder="密码" />
+            </div>
+            
+            <div>
+                <label class="tips">请重复输入密码</label>
+                <input type="password" placeholder="请重复输入密码" />
+                <p>密码请为6-16位英文数字</p>
+            </div>
+        </form>
+        
+
+            <form action="save.php" method="post">
+                <!--同一组的单选按钮，name 取值一定要一致，这样同一组的单选按钮才可以起到单选的作用。-->
+                <div>
+                    <label class="tips">性别</label>
+                    <!--value提交数据到服务器的值；checked默认被选中-->
+
+                    <input type="radio" value="male" name="sex" checked="checked" />
+                    <label>男</label>
+                    <input type="radio" value="female" name="sex" />
+                    <label>女</label>
+                </div>
+                
+            </form>
+            <form action="save.php" method="post">
+                <div>
+                    <label class="tips">城市</label>
+                    <select>
+                        <option value="北京">北京</option>
+                        <option value="上海" selected="selected">上海</option>
+                        <option value="广州">广州</option>
+                    </select>
+                </div>
+            </form>
+            <form action="save.php" method="post">
+                <div>
+                    <label class="tips">爱好</label>
+                    <input type="checkbox" value="sport" name="hobby" />
+                    <label>运动</label>
+                    <input type="checkbox" value="art" name="hobby" />
+                    <label>艺术</label>
+                    <input type="checkbox" value="science" name="hobby" />
+                    <label>科学</label>
+                </div>
+            </form>
+            <form action="save.php" method="post">
+                <div>
+                    <label class="tips">个人描述</label>
+
+                    <textarea rows="2" cols="20" >这是一个多行输入框( •̀ .̫ •́ )✧</textarea>
+                </div>
+            </form>
+        <input type="button" class="submitButton" value="确认提交" />
+</aside>
+
+	<div class="foot">
+		&copy;版权所有
+	</div>
+</div>
+</body>
+</html>
