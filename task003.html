@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三栏式布局</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		#content{
+			display: flex;
+			height: 460px;
+			background: #eee;
+			border: 1px solid #999;
+			margin: 20px;
+		}
+		.team{
+			width: 200px;
+			height: 120px;
+			border: 1px solid #999;
+			float: left;
+			margin-left: 20px;
+			margin-top: 20px;
+		}
+		.team p{
+			display: inline;
+			float: right;
+			padding-top: 20px;
+			padding-right: 20px;
+		}
+		.team .logo{
+			width: 80px;
+			height: 80px;
+			border: 1px solid #999;
+			margin-left: 20px;
+			margin-top: 20px;
+			background-image: url(images/1.jpg);
+		}
+		.intro{
+			border: 1px solid #999;
+			flex:1;
+			margin: 20px;
+			padding:20px;
+		}
+		.person{
+			width: 120px;
+			height: 420px;
+			border: 1px solid #999;
+			float: right;
+			margin-top: 20px;
+			margin-right: 20px;
+		}
+		.person div{
+			width: 80px;
+			height: 80px;
+			border: 1px solid #999;
+			margin: 20px auto;
+		}
+	</style>
+</head>
+<body>
+	<div id="content">
+		<div class="team">
+			<p>前端小白</p>
+			<div class="logo"></div>
+		</div>
+		<div class="intro">
+			<h3>关于个人的介绍</h3><br/>
+			<p>介绍本人目前做什么职业,为什么选择前端</p><br/>
+			<p>12级的学生,15级毕业生,至今在社会上摸爬滚打已经小三年,中间也经历了很多,也做过了很多份工作和兼职,也给自己放过几个月的假,到现在还是找不到自己喜欢的事情.偶然看到计算机专业,知道了前端,慢慢学习了之后,发现把页面用代码写出来还是很漂亮的,对这个产生了一点点兴趣,但是自己好像天生懒惰,对什么事情都无所谓,只是生存一直推着我前进.我该怎么做才能让自己活的更好一点,我不知道,但是努力应该会好一点吧,加油,前端小白</p>
+		</div>
+		<div class="person">
+			<div><img src="images/2.jpg" alt="个人logo" width="80" height="80"></div>
+			<div><img src="images/3.jpg" alt="个人logo" width="80" height="80"></div>
+			<div><img src="images/4.jpg" alt="个人logo" width="80" height="80"></div>
+			<div><img src="images/5.jpg" alt="个人logo" width="80" height="80"></div>
+		</div>
+	</div>
+</body>
+</html>
