@@ -1,0 +1,100 @@
+/* 顶部信息提示 */
+
+		.g-box1{
+			width: 100%;
+			height: 36px;
+			background: #f3f3f3;
+		}
+		.u-tips{
+			width: 1206px;
+			margin: 0 auto;
+		}
+		.u-tips p{
+			display: inline-block;
+			line-height: 36px;
+		}
+		.u-tips a{
+			color: #21a557;
+		}
+		/* .u-tips .icn{
+			height: 12px;
+		    		margin: 12px 0;
+		    		line-height: 12px;
+		    		text-indent: 21px;
+			background: url("images/spirits.png") no-repeat -8px -7px;
+		} */
+
+		/* 头部样式 */
+		
+		/* 左边的品牌样式 */
+		.m-nav{
+			width: 1206px;
+			margin: 0 auto;
+			padding: 32px 0 40px 0;
+		}
+		.m-nav .m-logo{
+			width: 240px;
+		}
+		/* .m-nav .m-logo p{
+		    		height: 26px;
+		    		width: 240px;
+		    		line-height: 26px;
+		    		padding-left: 84px;
+		    		font-size: 22px;
+		    		font-weight: bold;
+		    		background: url("images/spirits.png") no-repeat -1px -175px;
+		} */
+
+		/* 关注 粉丝样式 */
+		.m-nav .m-login{
+			margin-left: 32px;
+		}
+		/* .m-nav .m-login .ipt{
+			width: 54px;
+			height: 21px;
+			padding-left: 22px;
+			border: 0;
+			border-left: 2px;
+			background: #21a557 url("images/8.png") no-repeat 1px -10px;
+		} */
+		.m-nav .m-login .ipt:hover{
+			background-color: #2fb556;
+		}
+		.m-nav .m-login .cancle{
+			position: absolute;
+    		left: 66px;
+    		top: 5px;
+    		font: 12px/12px SimSun;
+    		color: #999;
+    		padding: 0 6px;
+    		border-left: 1px solid #cccccc
+		}
+		.m-nav .m-login .cancle:hover{
+			color:#21a557;
+    		text-decoration:underline;
+		}
+		.m-nav .m-login .fans{
+			margin-left: 15px;
+			color: #666;
+		}
+		/* 网站导航条 */
+		.m-nav .m-nav1{
+			margin-right: 20px;
+		}
+		.m-nav .m-nav1 a{
+			margin-right: 56px;
+			font-size: 16px;
+			color: #666;
+		}
+		.m-nav .m-nav1 a:hover{
+			 color:#39a030;
+		}
+		/* .m-nav .m-nav1 .sch{
+			width: 18px;
+			height: 18px;
+			margin: 0;
+			background: url("images/spirits.png") no-repeat -11px -34px;
+		} */
+		.m-nav .m-nav1 .sch:hover{
+			color: #39a030;
+		}

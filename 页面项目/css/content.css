@@ -1,0 +1,182 @@
+/* 主内容区 */
+
+		/* tab选项卡 */
+		.g-bd{
+			width: 1206px;
+			height: 1466px;
+			/* border: 1px solid red; */
+			margin: 0 auto;
+			overflow: hidden;
+
+		}
+		
+		.g-bd .m-tab{
+			width: 200px;
+			height: 50px;
+			font-size: 20px;
+			color: #999;
+			line-height: 50px;
+			text-align: center;
+			box-shadow: 2px 2px 1px 0 #e6e6e6;
+		}
+		.click{
+			color: #fff;
+			background-color: #39a030; 
+		}
+
+		/* 主栏 */
+		
+		.g-hd:after,.f-cb:after{display:block;visibility:hidden;clear:both;height:0;content:".";}
+		.g-bd .m-mn .flx{
+			float: left;
+			margin-right: 20px;
+			margin-bottom: 20px;
+		}
+		.g-bd .m-mn{
+			width: 980px;
+			height: 1216px;
+			margin-top: 75px;
+			
+		} 
+
+		/* 主栏内容 */
+		.g-bd .m-mn .m-ct{
+			width: 225px;
+			height: 228px;
+			box-shadow: 2px 2px 1px 0 #e6e6e6;
+		}
+		.g-bd .m-mn .m-ct img{
+			margin: 1px 1px 10px;
+		}
+		.g-bd .m-mn .m-ct p{
+			width: 209px;
+			margin-left: 5px;
+			text-overflow: ellipsis;
+			overflow: hidden;
+			white-space: nowrap;
+		}
+		.g-bd .m-mn .m-ct .f-fc{
+			display: block;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			margin-left: 5px;
+			color: #999;
+		}
+		/* .g-bd .m-mn .m-ct .ple{
+		    padding: 0 4px 0 18px;
+		    margin-left: 5px;
+			font-size: 10px;
+			border: 1px solid #ddd;
+			border-radius: 2px 2px;
+			background: url("images/people.png") no-repeat 0 0;
+			color: #ddd;} */
+		
+		.g-bd .m-mn .m-ct strong{
+			display: block;
+			margin-top: 10px;
+			margin-left: 5px;
+			color: #ff3f00;
+		}
+
+		/* 分页样式 */
+		.g-bd .page{
+			float: right;
+			margin-top: 30px;
+			
+		}
+		.g-bd .page a .pc{
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
+			text-align: center;
+			margin-left: 10px;
+    		font-size: 14px;
+    		border: 1px solid #e1e2e3
+		}
+		.g-bd .page a .pc:hover{
+			background-color: #9dd8b1;
+		}
+		.g-bd .page a .icn1{
+			width: 50px;
+			
+		}
+		.g-bd .page a .icn2{
+			width: 50px;
+		}
+			
+		/* 侧栏样式 */
+		.g-sdc{
+			width: 221px;
+			height: 1030px;
+		}
+
+		/* 视屏展示区 */
+		.g-sdc .m-ad{
+			width: 221px;
+			height: 230px;
+			box-shadow: -2px 2px 1px 0 #e6e6e6;
+		}
+		.m-ad .f-fs{
+			height: 55px;
+    		padding-left: 20px;
+    		border-bottom: 1px solid #ddd;
+    		color: #333;
+    		font: normal 16px/55px 'Microsoft YaHei';
+		}
+		.m-ad .vi{
+			position: relative;
+			padding-left: 20px;
+		}
+		.m-ad .vi span{
+			display: block;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			font: normal 14px/22px 'Microsoft YaHei';
+			color: #666;
+		}
+		.m-ad .vi .video{
+			position: absolute;
+			top: 58px;
+    		left: 85px;
+		}
+		
+		/* 最热排行榜 */
+		.g-sdc .m-top{
+			width: 221px;
+			margin-top: 20px;
+			box-shadow: -2px 2px 1px 0 #e6e6e6;
+		}
+		.m-top .f-fs{
+			height: 55px;
+    		padding-left: 20px;
+    		border-bottom: 1px solid #dddddd;
+    		color: #333;
+    		font: normal 16px/55px 'Microsoft YaHei';
+		}
+		.m-top .hot{
+			position: relative;
+			margin-left: 20px;
+			margin-top: 20px;
+		}
+		.m-top .hot .f-fs1{
+			width: 110px;
+			position: absolute;
+			top: 0;
+			left: 60px;
+			font-size: 14px;
+			text-overflow: ellipsis;
+			overflow: hidden;
+			white-space: nowrap;
+		}
+		/* .m-top .hot .f-fs2{
+			height: 15px;
+			line-height: 15px;
+			position: absolute;
+			top: 24px;
+			left: 60px;
+			font: 12px/12px 'Microsoft YaHei';
+		    		padding-left: 16px;	
+		    		background: url("images/people.png") no-repeat 0 0;	
+		    	}
+		 */
