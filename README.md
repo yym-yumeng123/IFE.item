@@ -14,3 +14,9 @@
 - [task002预览链接地址](https://yym-yumeng123.github.io/IFE.item/task002.html)
 - [task003预览链接地址](https://yym-yumeng123.github.io/IFE.item/task003.html)
 - [task004预览链接地址](https://yym-yumeng123.github.io/IFE.item/task004.html)
+
+
+
+## Copyright
+
+本题源自[百度前端技术学院](http://ife.baidu.com/2016/task/detail?taskId=1)，版权归[百度前端技术学院](http://ife.baidu.com/)所有。
