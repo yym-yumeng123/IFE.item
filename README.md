@@ -1,4 +1,4 @@
-[百度前端技术学院](http://ife.baidu.com/)
+> [百度前端技术学院](http://ife.baidu.com/)
 
 # 学院介绍
 
