@@ -12,10 +12,13 @@
 
 #### 代码预览
 
-- [零基础html编码](https://yym-yumeng123.github.io/IFE.item/task001.html)
-- [零基础HTML及CSS编码（一）](https://yym-yumeng123.github.io/IFE.item/task002.html)
-- [task003预览链接地址](https://yym-yumeng123.github.io/IFE.item/task003.html)
-- [task004预览链接地址](https://yym-yumeng123.github.io/IFE.item/task004.html)
+task001. [零基础html编码](https://yym-yumeng123.github.io/IFE.item/task001.html)
+
+task002. [零基础HTML及CSS编码（一）](https://yym-yumeng123.github.io/IFE.item/task002.html)
+
+task003. [task003预览链接地址](https://yym-yumeng123.github.io/IFE.item/task003.html)
+
+task004. [task004预览链接地址](https://yym-yumeng123.github.io/IFE.item/task004.html)
 
 
 
