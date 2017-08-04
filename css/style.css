@@ -1,0 +1,255 @@
+	*{
+		margin:0; padding:0;
+	}
+	#parents{
+		width:100%;
+		height:100%;
+		background:#dedede;
+		position: relative;
+	}
+	#parents .left{
+		margin-right: 400px;
+		margin-left: 20px;
+		box-shadow: 2px 2px 2px #848484;
+	}
+	#parents .right{
+		float: right;
+		position: absolute;
+		right: 20px;
+		top: 60px;
+		box-shadow: 2px 2px 2px #848484;
+	}
+	/*title的样式表*/
+	.header{
+		width:100%;
+		height:60px;
+		background:#333333;
+	}
+	.header .logo img{	
+		position: absolute;
+		top: 8px;
+		float:left;
+		margin-left: 20px;
+	}
+	.header .lia{
+		float:right;
+		line-height:60px;
+	}
+	.header .lia .tle{
+		float:left;
+		margin-right:20px;
+	}
+	.header .lia .tle a{
+		text-decoration:none;
+		color:white;
+	}
+	.header .lia .tle a:hover{
+		color:gray;
+	}
+	
+	.main .left{
+		margin-right: 20px;
+	}
+
+	/*artical1的样式表*/
+	
+	.artical1{
+		background:white;
+		margin:20px auto;
+	}
+	.artical1 .logo1{
+		padding-top:30px ;
+		padding-left:20px;
+	}
+	.artical1 .small{
+		padding-left:20px;
+		margin-top:15px;
+	}
+	.artical1 .time1{
+		padding-left:20px;
+		margin-top:15px;
+	}
+	.artical1 .du{
+		padding-left:20px;
+		text-indent:2em;	
+	}
+	.artical1 img{
+		padding-left:20px;
+	}
+	.artical1 .du1{
+		padding-left:20px;	
+	}
+
+	/*artical2的样式表*/
+	
+	.artical2{
+		background:white;
+		margin:20px auto;
+	}
+	.artical2 .logo2{
+		padding-top:30px ;
+		padding-left:20px;
+	}
+	.artical2 .small1{
+		padding-left:20px;
+		margin-top:15px;
+	}
+	.artical2 .time2{
+		padding-left:20px;
+		margin-top:15px;
+	}
+	.artical2 .du2{
+		padding-left:20px;
+		text-indent:2em;	
+	}
+	.artical2 .du3{
+		padding-left:20px;	
+	}
+	.artical2 img{
+		padding-left:20px;
+	}
+	.artical2 ul{
+		padding-left:20px;
+		list-style:none;
+		text-indent:2em;	
+	}
+
+	/*图片的样式表*/
+	
+	.img{
+		background:white;
+		margin:20px auto;
+	}
+	.img .h{
+		padding-top:30px ;
+		padding-left:20px;
+	}
+	.img .im{
+		display: inline-block;
+		width:200px;
+		height:200px;
+		border:1px solid black;
+		margin:20px;
+	}
+	.img .im .p1{
+		text-align:center;
+		margin-top:20px;
+	}
+	.img .im img{
+		width:100px;
+		height:100px;
+		margin-left:25%;
+		margin-top:20px;
+	}
+
+	/*表格样式表*/
+	.t{
+		background:white;
+		margin:20px auto;
+	}
+	.t .logo3{
+		padding-top:30px ;
+		padding-left:20px;
+	}
+	.t .small2{
+		padding-left:20px;
+		margin-top:15px;
+	}
+	.t .time3{
+		padding-left:20px;
+		margin-top:15px;
+	}
+	.t ol{
+		padding-left:100px;
+		margin-top:15px;
+		font-weight:bold;
+	}
+	.t .bo{
+		padding-left:20px;
+		margin-top:15px;
+		font-weight:bold;
+	}
+	.t table{
+		width: 100%;
+		height:180px;
+		/*margin:0 auto;*/
+	}
+	.t table .tr1{
+		background:#333333;	
+	}
+	.t table .tr2{
+		background:#cccccc;	
+	}
+	tr,th,td{
+		border:1px solid gray
+	}
+	tr,th{
+		text-align:left;
+	}
+	
+	
+
+
+	/*表单样式表*/
+	.form{
+		width:360px;
+		height:450px;
+		background:white;
+		margin:20px auto;
+	}
+	.form h4{
+		height:40px;
+		line-height:40px;
+		padding-left:10px;
+		border-left:3px solid #ccc;
+	}
+	.form form div{
+		font-size: 14px;
+		margin:15px 0;
+	}
+
+	.form form div .tips{
+		float:left;          
+		text-align:right;
+		width:35%;
+		padding-right:15px;
+	}
+	.form form div p{
+		margin-left:35%;
+		padding-left:15px;
+		font-size:12px;
+		color: #aaa;
+	}
+	.form textarea{
+		width:50%;
+		height:100px;
+
+	}
+	.form .submitButton{
+		width:100%;
+		height:40px;
+		border-radius: 10px;
+		background: #128fdc;
+		color: white;
+		font-size: 19px;
+		border:none;
+	}
+	.form .submitButton:hover{
+		background: #0063dc;
+
+	}
+
+
+
+	/*底部*/
+	.foot{
+		width:100%;
+		height:50px;
+		background:black;
+		color:white;
+		text-align:center;
+		line-height:50px;
+		font-size: 12px;
+		position: relative;
+		bottom: 0;
+	}
