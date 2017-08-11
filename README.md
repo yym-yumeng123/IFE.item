@@ -24,7 +24,7 @@ task004. [定位和居中问题](https://yym-yumeng123.github.io/IFE.item/task00
 
 task005. [零基础HTML及CSS编码（二）](https://yym-yumeng123.github.io/IFE.item/task005.html)
 
-task006. [通过HTML及CSS模拟报纸排版](https://yym-yumeng123.github.io/IFE.item/newsparer/index.html)
+task006. [通过HTML及CSS模拟报纸排版](https://yym-yumeng123.github.io/IFE.item/newspaper/index.html)
 
 
 ## Copyright
