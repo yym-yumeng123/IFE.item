@@ -26,7 +26,7 @@ task005. [零基础HTML及CSS编码（二）](https://yym-yumeng123.github.io/IF
 
 task006. [通过HTML及CSS模拟报纸排版](https://yym-yumeng123.github.io/IFE.item/newspaper/index.html)
 
-task007. [常见的技术产品官网的页面架构及样式布局](https://yym-yumeng123.github.io/IFE.item/technology/task007.html)
+task007. [常见的技术产品官网的页面架构及样式布局](https://yym-yumeng123.github.io/IFE.item/tecgnology/task007.html)
 ## Copyright
 
 本题源自[百度前端技术学院](http://ife.baidu.com/2016/task/detail?taskId=1)，版权归[百度前端技术学院](http://ife.baidu.com/)所有。
