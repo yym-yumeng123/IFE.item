@@ -54,3 +54,90 @@ main .m-world h2{
 	font-family: "黑体";
 	color: #a8a8a8;
 }
+
+/*city*/
+main .m-city .city-map{
+	position: relative;
+}
+main .m-city .city-map img{
+	width: 100%;
+}
+main .m-city .city-map h3{
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	transform:translateX(-50%);
+	font-family: :微软雅黑;
+	font-size: 21px;
+	color: #fff;
+}
+main .m-city .city-map p{
+	position: absolute;
+	top: 105px;
+	left: 50%;
+	transform:translateX(-50%);
+	font-family: :微软雅黑;
+	font-size: 12px;
+	color: #fff;
+}
+.m-city .city-sear .form-search{
+	display: flex;
+}
+.m-city .city-sear .form-search .sel{
+	position: relative;
+	bottom: 200px;
+	z-index: 5;
+	width: 237px;
+	height: 40px;
+	flex:1;
+	padding: 0 20px;
+	margin: 0 20px;
+	border-radius: 5px;
+	font-size: 12px;
+}
+.m-city .city-sear .form-search .sel option{
+	background: #e4e3e5;
+	color: #fff;
+}
+.m-city .city-sear .form-search .click{
+	background: #be4e48;
+	color: #fff;
+	border-radius: 5px;
+}
+
+
+
+/*activity*/
+	
+.m-activity .active{
+	width: calc(25% - 40px);
+	margin: 20px;
+	padding: 60px;
+}
+.m-activity .active figure img{
+	border: 1px solid #cecfce;
+	padding: 10px;
+}
+.m-activity .active figure h3{
+	padding-left: 30px;
+}
+.m-activity .active figure.img-bottom h3{
+	font-size: 16px;
+	margin: 10px 0;
+}
+.m-activity .active figure p{
+	padding-left: 30px;
+}
+.m-activity .active figure.img-bottom p{
+	font-size: 12px;
+	color: #ccc;
+}
+.m-activity .active .img-two h3{
+	font-size: 21px;
+	letter-spacing: 15px;
+	margin-bottom: 10px;
+}
+.m-activity .active .img-two p{
+	font-size: 12px;
+	color: #ccc;
+}
