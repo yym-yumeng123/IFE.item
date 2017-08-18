@@ -155,6 +155,7 @@ main .m-city .city-map p{
 	}
 	.m-new .new-world .time img{
 	width: 100%;
+	vertical-align: middle;
 	}
 	.m-new .new-world .time .bei{
 	position:absolute;
@@ -228,10 +229,12 @@ main .m-city .city-map p{
 
 	.m-new .m-list{
 	width: 100%;
+
 	}
 	.m-new .m-list li{
 	width: 33.33%;
 	font-size: 21px;
+	/*margin-top: -4px;*/  解决上下边距空隙
 	}
 	.m-new .m-list li:first-child{
 	background: #e74f4d;
@@ -399,7 +402,46 @@ main .information .log{
 	background: #ececee;
 }
 
-
+/*最后一个啦*/
+.e-mail{
+	width: 100%;
+	padding: 90px 0;
+	background: #32363e;
+}
+.e-mail .content{
+	width: 510px;
+	color: #fff;
+	margin: 0 auto;
+}
+.e-mail .content h4{
+	font-family: "黑体";
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+.e-mail .content p{
+	line-height: 16px;
+	margin-bottom: 20px;
+}
+.e-mail .content .iconfont1{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	background: url("../images/1.png")no-repeat -134px -64px;
+}
+.e-mail .content .iconfont2{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url("../images/1.png")no-repeat -134px -126px;
+}
+.e-mail .content .iconfont3{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	background: url("../images/1.png")no-repeat -134px -188px;
+}
 
 
 /*footer*/
@@ -412,8 +454,7 @@ footer{
 	bottom: 0;
 }
 footer .foot{
-	width: 1144px;
-	margin: 0 auto;
+	width: 100%;
 }
 footer .foot span{
 	color: #fff;
@@ -423,43 +464,3 @@ footer .foot span{
 
 
 
-/*最后一个啦*/
-		.e-mail{
-			width: 100%;
-			padding: 90px 0;
-			background: #32363e;
-		}
-		.e-mail .content{
-			width: 510px;
-			color: #fff;
-			margin: 0 auto;
-		}
-		.e-mail .content h4{
-			font-family: "黑体";
-			font-size: 21px;
-			margin-bottom: 10px;
-		}
-		.e-mail .content p{
-			line-height: 16px;
-			margin-bottom: 20px;
-		}
-		.e-mail .content .iconfont1{
-			display: inline-block;
-			width: 30px;
-			height: 30px;
-			margin-right: 10px;
-			background: url("../images/1.png")no-repeat -134px -64px;
-		}
-		.e-mail .content .iconfont2{
-			display: inline-block;
-			width: 30px;
-			height: 30px;
-			background: url("../images/1.png")no-repeat -134px -126px;
-		}
-		.e-mail .content .iconfont3{
-			display: inline-block;
-			width: 30px;
-			height: 30px;
-			margin-left: 10px;
-			background: url("../images/1.png")no-repeat -134px -188px;
-		}
