@@ -11,18 +11,18 @@
 
 任务目的
 
-- JavaScript初体验
-- 初步明白JavaScript的简单基本语法，如变量、函数
-- 初步了解JavaScript的事件是什么
-- 初步了解JavaScript中的DOM是什么
+- 在上一任务基础上继续JavaScript的体验
+- 接触一下JavaScript中的高级选择器
+- 学习JavaScript中的数组对象遍历、读写、排序等操作
+- 学习简单的字符串处理操作
 
 任务描述
 
-- 参考以下示例代码，补充其中的JavaScript功能，完成一个JavaScript代码的编写
-- 本任务完成的功能为：用户可以在输入框中输入任何内容，点击“确认填写”按钮后，用户输入的内容会显示在“您输入的值是”文字的右边
+- 参考以下示例代码，读取页面上已有的source列表，从中提取出城市以及对应的空气质量
+- 将数据按照某种顺序排序后，在resort列表中按照顺序显示出来
 
 ```
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
   <head>
     <meta charset="utf-8">
@@ -30,29 +30,88 @@
   </head>
 <body>
 
-  <label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
-  <button id="button">确认填写</button>
+  <ul id="source">
+    <li>北京空气质量：<b>90</b></li>
+    <li>上海空气质量：<b>70</b></li>
+    <li>天津空气质量：<b>80</b></li>
+    <li>广州空气质量：<b>50</b></li>
+    <li>深圳空气质量：<b>40</b></li>
+    <li>福州空气质量：<b>32</b></li>
+    <li>成都空气质量：<b>90</b></li>
+  </ul>
 
-  <div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+  <ul id="resort">
+    <!-- 
+    <li>第一名：北京空气质量：<b>90</b></li>
+    <li>第二名：北京空气质量：<b>90</b></li>
+    <li>第三名：北京空气质量：<b>90</b></li>
+     -->
+
+  </ul>
+
+  <button id="sort-btn">排序</button>
 
 <script type="text/javascript">
 
-(function() {
-  /*	
-  在注释下方写下代码
-  给按钮button绑定一个点击事件
-  在事件处理函数中
-  获取aqi-input输入的值，并显示在aqi-display中
+/**
+ * getData方法
+ * 读取id为source的列表，获取其中城市名字及城市对应的空气质量
+ * 返回一个数组，格式见函数中示例
+ */
+function getData() {
+  /*
+  coding here
   */
 
-})();
+  /*
+  data = [
+    ["北京", 90],
+    ["北京", 90]
+    ……
+  ]
+  */
+
+  return data;
+
+}
+
+/**
+ * sortAqiData
+ * 按空气质量对data进行从小到大的排序
+ * 返回一个排序后的数组
+ */
+function sortAqiData(data) {
+
+}
+
+/**
+ * render
+ * 将排好序的城市及空气质量指数，输出显示到id位resort的列表中
+ * 格式见ul中的注释的部分
+ */
+function render(data) {
+
+}
+
+function btnHandle() {
+  var aqiData = getData();
+  aqiData = sortAqiData(aqiData);
+  render(aqiData);
+}
+
+
+function init() {
+
+  // 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
+
+}
+
+init();
 
 </script>
 </body>
 </html>
-
 ```
-
 任务注意事项
 
 - 实现简单功能的同时，请仔细学习JavaScript基本语法、事件、DOM相关的知识
