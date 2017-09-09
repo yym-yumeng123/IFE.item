@@ -29,6 +29,8 @@ task006. [通过HTML及CSS模拟报纸排版](https://yym-yumeng123.github.io/IF
 task007. [常见的技术产品官网的页面架构及样式布局](https://yym-yumeng123.github.io/IFE.item/tecgnology/task007.html)
 - `img` 和`vertical-align:middle` 更配哦
 
+JS-task001. [零基础JavaScript编码（一）](https://yym-yumeng123.github.io/IFE.item/tecgnology/js_task001.html)
+JS-task001. [零基础JavaScript编码（一）](https://yym-yumeng123.github.io/IFE.item/tecgnology/js1-task001_1.html)
 
 ## Copyright
 
