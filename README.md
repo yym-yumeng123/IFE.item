@@ -31,7 +31,9 @@ task007. [常见的技术产品官网的页面架构及样式布局](https://yym
 
 JS-task001. [零基础JavaScript编码（一）](https://yym-yumeng123.github.io/IFE.item/js_task001.html)
 
-JS-task001. [零基础JavaScript编码（一）](https://yym-yumeng123.github.io/IFE.item/js1-task001_1.html)
+JS-task001. [零基础JavaScript编码（一）](https://yym-yumeng123.github.io/IFE.item/js_task001_1.html)
+
+JS-task002. [零基础JavaScript编码（二)](https://yym-yumeng123.github.io/IFE.item/js_task002.html)
 
 ## Copyright
 
