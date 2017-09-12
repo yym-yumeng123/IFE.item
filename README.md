@@ -36,6 +36,8 @@ JS-task001. [零基础JavaScript编码（一）](https://yym-yumeng123.github.io
 JS-task002. [零基础JavaScript编码（二)](https://yym-yumeng123.github.io/IFE.item/js_task002.html)
 - 尽量避免循环内appendChild…重排会引起性能下降，对DOM的操作要越少越好，可考虑将ul中内容 保存到临时字符串 最后一次性添加。
 
+JS-task003. [零基础JavaScript编码（三)](https://yym-yumeng123.github.io/IFE.item/js_task003.html)
+
 ## Copyright
 
 本题源自[百度前端技术学院](http://ife.baidu.com/2016/task/detail?taskId=1)，版权归[百度前端技术学院](http://ife.baidu.com/)所有。
