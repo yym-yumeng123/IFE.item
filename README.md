@@ -38,6 +38,8 @@ JS-task002. [零基础JavaScript编码（二)](https://yym-yumeng123.github.io/I
 
 JS-task003. [零基础JavaScript编码（三)](https://yym-yumeng123.github.io/IFE.item/js_task003.html)
 
+JS-task004. [零基础JavaScript编码（四)](https://yym-yumeng123.github.io/IFE.item/js_task004.html)
+
 ## Copyright
 
 本题源自[百度前端技术学院](http://ife.baidu.com/2016/task/detail?taskId=1)，版权归[百度前端技术学院](http://ife.baidu.com/)所有。
