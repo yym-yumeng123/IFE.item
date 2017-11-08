@@ -10,8 +10,9 @@
 
 > 百度前端技术学院2015/2016
 
-#### 代码预览
+### 代码预览
 
+#### 第一阶段
 task001. [零基础html编码](https://yym-yumeng123.github.io/IFE.item/task001.html)
 
 task002. [零基础HTML及CSS编码（一）](https://yym-yumeng123.github.io/IFE.item/task002.html)
@@ -29,6 +30,7 @@ task006. [通过HTML及CSS模拟报纸排版](https://yym-yumeng123.github.io/IF
 task007. [常见的技术产品官网的页面架构及样式布局](https://yym-yumeng123.github.io/IFE.item/tecgnology/task007.html)
 - `img` 和`vertical-align:middle` 更配哦
 
+#### 第二阶段
 JS-task001. [零基础JavaScript编码（一）](https://yym-yumeng123.github.io/IFE.item/js_task001.html)
 
 JS-task001. [零基础JavaScript编码（一）](https://yym-yumeng123.github.io/IFE.item/js_task001_1.html)
@@ -37,6 +39,8 @@ JS-task002. [零基础JavaScript编码（二)](https://yym-yumeng123.github.io/I
 - 尽量避免循环内appendChild…重排会引起性能下降，对DOM的操作要越少越好，可考虑将ul中内容 保存到临时字符串 最后一次性添加。
 
 JS-task003. [零基础JavaScript编码（三)](https://yym-yumeng123.github.io/IFE.item/js_task003.html)
+
+JS-task004. [零基础JavaScript编码（四)](https://yym-yumeng123.github.io/IFE.item/js_task004.html)
 
 ## Copyright
 
